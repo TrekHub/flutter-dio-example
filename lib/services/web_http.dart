@@ -3,7 +3,7 @@ import 'package:github_api/services/logger.dart';
 
 class WebHttp {
   final Dio _dio = Dio();
-  final String accessToken = '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';
+  final String accessToken = '';
   final String _baseUrl = 'https://api.GitHub.com';
 
   WebHttp() {
